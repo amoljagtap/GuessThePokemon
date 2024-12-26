@@ -8,7 +8,7 @@
 import XCTest
 @testable import GuessThePokemon
 
-class BundleExtensionTests: XCTestCase {
+final class BundleExtensionTests: XCTestCase {
     
     func testLoadFileSuccess() {
         let data = try? Bundle.loadFile(fileName: "pokemon", extension: "json")

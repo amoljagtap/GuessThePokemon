@@ -8,7 +8,7 @@
 import XCTest
 @testable import GuessThePokemon
 
-class PokemonEndpointTests: XCTestCase {
+final class PokemonEndpointTests: XCTestCase {
     
     func testPokemonEndpoint_withPokemonPath() {
         let expectedURL = URL(string: "https://pokeapi.co/api/v2/pokemon?limit=100&offset=0")!

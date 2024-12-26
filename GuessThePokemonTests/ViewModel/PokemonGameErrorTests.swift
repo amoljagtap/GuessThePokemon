@@ -9,7 +9,7 @@
 import XCTest
 @testable import GuessThePokemon
 
-class PokemonGameErrorTests: XCTestCase {
+final class PokemonGameErrorTests: XCTestCase {
     
     func testPokemonGameErrorDescription() {
         XCTAssertEqual(PokemonGameError.fetchFailed.localizedDescription, "Failed to load Pokemon game data. Please try again later.")

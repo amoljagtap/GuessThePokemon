@@ -8,7 +8,7 @@
 import XCTest
 @testable import GuessThePokemon
 
-class PokemonCharacterImageEndpointTests: XCTestCase {
+final class PokemonCharacterImageEndpointTests: XCTestCase {
     
     func testPokemonCharacterImageEndpoint_withValidURL() {
         let endpoint = PokemonChracterImageEndpoint(pokemonCharacter: PokemonCharacterDetail(name: "pickachu", frontDefault: "https://pokeapi.co/1.png"))

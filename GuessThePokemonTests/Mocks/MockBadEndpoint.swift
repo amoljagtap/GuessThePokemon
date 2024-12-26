@@ -8,7 +8,7 @@
 import Foundation
 @testable import GuessThePokemon
 
-class MockBadEndpoint: HTTP.Endpoint {
+final class MockBadEndpoint: HTTP.Endpoint {
     
     var throwBadRequestError = false
     
